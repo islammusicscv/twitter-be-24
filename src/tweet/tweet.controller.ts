@@ -1,7 +1,7 @@
-import { Body, Controller, Get, Post } from "@nestjs/common";
+import { Body, Controller, Get, Post } from '@nestjs/common';
 import { TweetService } from './tweet.service';
 import { Tweet } from './tweet.entity';
-import { CreateTweetDto } from "./create-tweet.dto";
+import { CreateTweetDto } from './create-tweet.dto';
 
 @Controller('tweets')
 export class TweetController {
